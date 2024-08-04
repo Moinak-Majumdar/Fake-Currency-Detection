@@ -1,0 +1,46 @@
+name: flutter_app
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  image_picker: ^1.0.7
+  path: ^1.9.0
+  tflite_flutter: ^0.10.4
+  flutter_native_splash: ^2.4.0
+  image: ^4.2.0
+  google_fonts: ^6.2.0
+  get: ^4.6.6
+  flex_color_scheme: ^7.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  change_app_package_name: ^1.1.0
+
+flutter_native_splash:
+  background_image: "assets/splash.png"
+  android: true
+  ios: true
+  web: false
+
+
+flutter:
+
+  
+  uses-material-design: true
+
+  assets:
+    - assets/model/
+    - assets/splash.png
