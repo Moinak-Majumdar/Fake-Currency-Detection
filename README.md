@@ -48,4 +48,5 @@ This work focuses on the development of a mobile-based solution to detect counte
 
 ## <a id='recording'>Recording</a>
 
-![recording](/media/recording.mp4)
+https://github.com/user-attachments/assets/046f796f-c3fa-4a65-b8bf-f9e863e8a771
+
